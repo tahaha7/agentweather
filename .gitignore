@@ -1,0 +1,21 @@
+# Secrets — never commit these
+.env
+*.env
+
+# Data — fetched at runtime, not committed
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
